@@ -7,7 +7,7 @@ const  {getinfo, postinfo, registropost} = require('../controllers/controller');
 
 const app = express();
 
-app.set('port', process.env.PORT || 3000)
+app.set('port', 5000)
 
 app.use(morgan('dev'));
 app.use(express.urlencoded({extended: false}));
