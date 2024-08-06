@@ -2,10 +2,10 @@
   "name": "restfull-api-tickpass",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/api/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon watch src/index.js"
+    "start": "nodemon watch-- src/api/index.js"
   },
   "keywords": [],
   "author": "",
