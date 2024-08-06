@@ -10,7 +10,7 @@ const getinfo = async(req,res) =>{
      pool.query('SELECT * FROM eventos',(data,err)=>{
         if(err) return res.json(err);
         console.log(data.rows);
-         return res.json(data.rows);
+         return res.json(data);
         
 });
 }
