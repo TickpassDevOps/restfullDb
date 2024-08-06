@@ -1,9 +1,8 @@
 {
-   
     "rewrites":[
        {
            "source": "/(.*)",
-           "destination":"src/api/index.js"
+           "destination":"./src/api/index.js"
        }
    ]
    
