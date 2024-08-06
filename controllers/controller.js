@@ -2,8 +2,8 @@ const { json } = require('express');
 const { Pool } = require('pg');
 
 const pool = new Pool ({
-    // connectionString: process.env.POSTGRES_URL,
-    connectionString: "postgres://default:UAcxhl4NkDs8@ep-black-credit-a4s45dxq-pooler.us-east-1.aws.neon.tech:5432/verceldb?sslmode=require"
+     connectionString: process.env.POSTGRES_URL,
+   
    
 })
 
